@@ -1,0 +1,121 @@
+<!-- projects.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fanuel Ayana - Projects</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <header class="header fixed-header">
+    <nav class="nav container">
+      <a href="home.html" class="nav__logo"> <img src="logo.jpg" alt="logo fan" id="leftlogo"></a>
+      <a href="home.html" class="nav__logo">Fanuel Ayana</a>
+      <ul class="nav__list" id="nav-list">
+             <li><a href="index.html" nav__link active">Home</a></li>
+        <li><a href="ab.html" class="nav__link">About</a></li>
+        <li><a href="proj.html" class="nav__link active">Projects</a></li>
+        <li><a href="contacts.html" class="nav__link">Contact</a></li>
+      </ul>
+      <div class="nav__toggle" id="nav-toggle"><i class="fas fa-bars"></i></div>
+    </nav>
+  </header>
+
+  <main class="container main-content">
+    <section class="projects-section fade-in">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-image-wrapper">
+            <img
+              src="airline.jpg"
+              alt="Project 1 Screenshot"
+              loading="lazy"
+            />
+            <!-- Replace 'images/project1-placeholder.jpg' with your project image -->
+            <div class="project-icon"><i class="fas fa-code"></i></div>
+          </div>
+          <h3>Airline Reservation</h3>
+          <p>
+            A responsive multi-page website showcasing modern design and
+            smooth user experience.
+          </p>
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-secondary"
+            >View Demo</a
+          >
+          <!-- Replace href="#" with your project demo or repo link -->
+        </article>
+
+        <article class="project-card">
+          <div class="project-image-wrapper">
+            <img
+              src="hospital.png"
+              alt="Project 2 Screenshot"
+              loading="lazy"
+            />
+            <!-- Replace 'images/project2-placeholder.jpg' with your project image -->
+            <div class="project-icon"><i class="fas fa-mobile-alt"></i></div>
+          </div>
+          <h3>hospital management system</h3>
+          <p>
+            A mobile-first web application focused on delivering seamless
+            user interactions.
+          </p>
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-secondary"
+            >View Demo</a
+          >
+          <!-- Replace href="#" with your project demo or repo link -->
+        </article>
+
+        <article class="project-card">
+          <div class="project-image-wrapper">
+            <img
+              src="student.jpg"
+              alt="Project 3 Screenshot"
+              loading="lazy"
+            />
+            <!-- Replace 'images/project3-placeholder.jpg' with your project image -->
+            <div class="project-icon"><i class="fas fa-database"></i></div>
+          </div>
+          <h3>student management system</h3>
+          <p>
+            A backend API service with robust database integration and
+            authentication.
+          </p>
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-secondary"
+            >View Demo</a
+          >
+          <!-- Replace href="#" with your project demo or repo link -->
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>© 2024 Fanuel Ayana. All rights reserved.</p>
+  </footer>
+</body>
+</html>
